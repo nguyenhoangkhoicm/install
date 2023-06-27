@@ -1,78 +1,54 @@
-# Product Name
-> Short blurb about what your product does.
+# Trợ lý ảo thông minh siri
+> Thông tin sản phẩm.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Siri Version][1.5]]
+[![By deverloper][Nguyen Hoang Khoi]]
 
-One to two paragraph statement about your product and what it does.
 
-![](header.png)
+Chương trình trợ lý ảo được thiết kế để liên tục lắng nghe người dùng bằng từ khóa "hey siri". Khi từ khóa này được phát hiện, chương trình sử dụng tính năng nhận dạng giọng nói để xác định những gì người dùng đang nói.
+Để xác định mục đích của người dùng, chương trình sử dụng lớp intentclassifier (có trong thư mục /intentclassfiter/intenclassfiter.py) và thuật toán Support Vector Machine (SVM) đã được đào tạo trên tập dữ liệu chứa các lời nhắc mẫu của người dùng cùng với mục đích của họ. Nhờ đó, chương trình có thể phân loại mục đích của người dùng một cách chính xác.
+Dựa trên mục đích được phân loại, trợ lý ảo thực hiện các chức năng tương ứng, các chức năng này được lưu trữ trong thư mục /ai_functions. Qua đó, người dùng có thể tương tác với trợ lý ảo một cách dễ dàng và thuận tiện.
+
+
+![](🤖)
 
 ## Installation
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
 Windows:
 
-```sh
-edit autoexec.bat
+```pip
+pip install requments.txt
 ```
-
+```open folder exe
+Mở folder exe và nhấn vào file Siri.exe để cài đặt chương trình
+```
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Để sử dụng chương trình bạn chỉ cần click vào biểu tượng trợ  lý sau khi cài đặt hoàn tất ở bước trên và sau khi giao diện trợ lý hiện lên bạn chỉ cần ra lệnh bằng giọng nói:
+ví dụ "bạn cho mình xem lịch học mới nhất" sau khi bạn nói xong trợ lý sẽ tự động tìm kiếm lịch học mới nhất cho bạn.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+## Support assistant content
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
+```Nội dung hỗ trợ
+Tìm kiếm lịch học
+Tra cứu điểm
+Điểm số
+Học bổng
+Phòng ban
+Học phí
 ```
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+* version 1.5
+    * Phiên bản ổn định và mới nhất
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Name – [@Nguyen Hoang Khoi]
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+[https://github.com/nguyenhoangkhoicm/]
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
 
-## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
