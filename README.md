@@ -1,7 +1,7 @@
 # Trợ lý ảo thông minh siri
 > Thông tin sản phẩm.
-<p style="color: red;">[Siri Version][1.5]</p>
-<p style="color: blue;">[By deverloper][Nguyen Hoang Khoi]</p>
+<p style="color: red;">Siri Version: 1.5</p>
+<p style="color: blue;">By deverloper: Nguyen Hoang Khoi</p>
 
 
 Chương trình trợ lý ảo được thiết kế để liên tục lắng nghe người dùng bằng từ khóa "hey siri". Khi từ khóa này được phát hiện, chương trình sử dụng tính năng nhận dạng giọng nói để xác định những gì người dùng đang nói.
