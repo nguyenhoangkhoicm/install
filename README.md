@@ -15,11 +15,15 @@ Dựa trên mục đích được phân loại, trợ lý ảo thực hiện cá
 
 Windows:
 
+```
+* Trước khi cài đặt phần mềm chúng ta cần cài python phiên bản (3.9.13) về máy. https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
+```
 ```pip
-pip install requments.txt
+Sau khi cài đặt python hoàn tất chung ta chạy lệnh sau:
+   pip install requments.txt
 ```
 ```open folder exe
-Mở folder exe và nhấn vào file Siri.exe để cài đặt chương trình
+Sau khi cài đặt các thư viện cần thiết thành công chúng ta mở folder exe và nhấn vào file Siri.exe để cài đặt chương trình
 ```
 ## Usage example
 
